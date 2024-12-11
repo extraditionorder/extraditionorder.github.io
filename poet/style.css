@@ -1,0 +1,56 @@
+﻿body {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    margin: 1em;
+    background-color: #000000;
+}
+
+header {
+    max-width: 42em;
+    padding: 0;
+    margin: 0 auto;
+}
+
+main {
+    padding: 1em;
+    max-width: 40em;
+    margin: 1em auto;
+    color: #f3d86b;
+    background-color: #000000;
+    text-align: justify;
+}
+
+a:link, a:visited {
+    color: #c8baaa;
+}
+
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    display: block;
+    padding: 1em;
+    width: fit-content;
+    text-align: center;
+    color: black !important;
+    background-color: #fdfdfd;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.button img {
+    height: 8em;
+}
+
